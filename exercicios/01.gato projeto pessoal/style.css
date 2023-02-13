@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: rgb(238,228,217);
+    --cor1: rgb(26, 23, 23);
+    --cor2: rgb(224, 224, 16);
+    --cor3: rgb(255, 255, 0);
+
+    --fonte-padrão: arial,verdana,helvetica,sans-serif;
+    --fonte-destaque: 'kaloy demo-regular.ttf';
+}   
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:rgb(247, 247, 89) ;
+    font-family: var(--fonte-destaque);
+}
+
+body h2{
+    background-color: var(--cor0);
+}
+picture{
+    margin: 100px;
+}
+
+
+header{
+    background-image: linear-gradient(to bottom,var(--cor1),var(--cor3) );
+    background-color: var(--cor1);
+    min-height: 150px;
+    text-align:center;
+    padding-top: 40px;
+}
+
+header > h1{
+    color: var(--cor1);
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: var(--cor2)
+
+}
+
+header > p{
+    color: var(--cor1);
+    font-family: var(--fonte-padrão);
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: var(--cor3)
+   
+}
+
+article > h1 {
+    background-image: linear-gradient(to bottom,var(--cor3) );
+    background-color: var(--cor0);
+    
+}
+
+nav {
+    background-color:var(--cor2);
+    padding: 10px;
+    box-shadow: 0px 7px 7px var(--cor1);
+
+}
+
+nav > a{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a :hover{
+    background-color: var(--cor1);
+    color: var(--cor3);
+
+}
+
+main{
+    background-color: var(--cor0);
+    min-width: 300px;
+    max-width: 1200px;
+    margin: 30px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.603);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1{
+    color: var(--cor1);
+    font-family: var(--fonte-destaque);
+}
+
+main h2 {
+    color: var(--cor1);
+    font-family: var(--fonte-destaque);
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main strong {
+    color: var(--cor1);
+    font-weight: bold;
+}
+
+main a{
+    background-color: var(--cor1);
+    font-weight: bold;
+    padding:2px 6px;
+    text-decoration: double;
+    color: var(--cor3);
+
+}
+
+main h2{
+    color: var(--cor2);
+    font-family: var(--fonte-destaque);
+}
+
+footer{
+    background-color: var(--cor0);
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.212),var(--cor3) );
+}
+
+
+
+
+

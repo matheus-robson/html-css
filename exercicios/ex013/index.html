@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mídias em html5</title>
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>tente abrir estas imagens em deispositivos diferentres ou diminua o tamanho do navegador</p>
+   
+    <picture> 
+        <source media="(min-width:650xp )" srcset="fundos/fundosp.png" type="image/png">
+        <source media="(min-width:1050px )" srcset="fundos/fundos.png" type="image/png">
+        <img src="fundos/fundosm.png" alt="imagem felxível"> </picture>
+    <h1>audio</h1>
+    <audio preload="auto"autoplay controls loop > 
+        <source src="midia/rock.mp3" type="audio/mpeg">
+        <source src="midia/rock.ogg" type="audio/ogg">
+        <source src="midia/rock.wav" type="audio/wav">
+        <p>infelizmente seu navegador não consegue carregar <a href="midia/rock.mp3"clique para baixar o arquivo mp3></a></p>
+        </audio>
+        <h2>esse é o video</h2>
+        <video src="midia/Video1.m4v" width="200" controls></video>
+        <h2>como inserir vídeos do youtube</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Cb9F59uvA_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>colocar vídeos para o cliente no youtube para economizar dados ou vimeo para dar mais privacidade de vídeo aos clientes.</h4>
+        
+    
+</body>
+</html>

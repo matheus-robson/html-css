@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{
+
+    /* BOX-level
+    .altura = height
+    .largura = width
+    .borda = border
+    .prenchimento = padding
+    .espaço externo= margin
+    .contorno = outline 
+    .<div> = caixa box-level
+    . <span>= inline-level    
+    . user agent é o seu navegador
+    . ordem para padding= cima,direta,baixo, esquerda*/   
+
+         background-color: rgb(45, 218, 11);
+            height: 44px;
+            width: 400px;
+
+           border-style: dashed;
+           border-width: 10px;
+           border-color: black;
+
+           padding: 10px;
+
+           margin: auto;
+
+         outline-style: double;
+         outline-color: yellow;
+         outline-width: 10px;
+         
+        }
+        a{
+            /*inline-level*/
+            display: block;
+            border-style: dashed;
+           border-width: 10px;
+           border-color: rgb(255, 1, 1);
+           padding: 10px;
+
+        }
+    </style>
+</head>
+ 
+<body>  
+<h1>exemplo de caixa box-level</h1>
+<p> Parágrafos também são exemplos de box-level, mas os links são exemplos de box-level"vamos ver como funciona <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf"dale>bora entender a caixa</a> </p>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+@charset "UTF-8"
+<style>
+      body{
+        background-color: aliceblue;
+        front font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 20px
+      }  
+
+      h1 {
+        color: blue;
+        background-color: aliceblue;
+      }
+
+      h2{
+        color: red;
+      }
+
+      p{
+        -ms-text-justify;
+      }  
+    </style>
