@@ -85,7 +85,7 @@ nav > a :hover{
 
 }
 
-main{
+main{ 
     background-color: var(--cor0);
     min-width: 300px;
     max-width: 1200px;
