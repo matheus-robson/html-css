@@ -12,17 +12,48 @@
 
         table{
             width: 500px;
+            border-collapse: collapse;
         }
 
-        td,th,tr{
+        caption{
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 10px;
+            background-color: rgb(189, 189, 189);}
+       
+
+        thead,tfoot{
+            background-color: rgb(61, 60, 60);
+            color: white;  
+        }
+
+        thead>tr>th{
+            position: sticky;
+            top: 2;
+            background-color:rgb(61, 60, 60); 
+        }
+
+        td,th{
             border: 1px solid black;
             padding: 10px;
+            text-align: left;
         }
 
-        thead{
-            background-color: gray;
-            color: white;
+        tbody>tr:nth-child(2n){
+            background-color: lightgray;
         }
+
+        td.num{
+            text-align: right;  
+        }
+
+
+        th.cen{
+            text-align: center;
+
+        }
+       
+          
 
     </style>
 </head>
@@ -41,21 +72,96 @@
     <table>
             <thead> 
                 <tr> 
-                    <th>estado </th>
-                     <th>população</th>
+                    <th class=cen scope="col">Pais </th>
+                     <th class=cen
+                     scope="col">População</th>
                 </tr>
             </thead>
-    </table>
-    <tbody>
-        <tr>
-            <td>
-                São Paulo 
-            </td>
-            <td>
-                4500000
-            </td>
+            
+            <tbody>
+            <tr>
+                <th>  China               </th> 
+                    <td class="num">1 411 780 000</td>
+            </tr>
+            <tr>
+                <th> Índia </th> 
+            
+            
+                <td class="num">1 326 155 000</td>
         </tr>
+        <tr>
+            <th> Estados Unidos
+            </th> 
+        
+            <td class="num">331 449 281</td>
+    </tr>
+    <tr>
+        <th > Indonésia</th> 
+    
+        <td class="num"> 273 523 615</td>
+    </tr>
+    <tr>
+        <th> Paquistão </th> 
+
+        <td class="num">220 892 340</td>
+    </tr>
+    <tr>
+        <th>Nigéria </th> 
+    
+        <td class="num">217 757 685</td>
+    </tr>
+    <tr>
+        <th> Brasil
+        </th> 
+    
+        <td class="num">215 851 765</td>
+    </tr>
+    <tr>
+        <th> Bangladesh
+        </th> 
+    
+        <td class="num">164 689 383</td>
+    </tr>
+    <tr>
+        <th>Rússia </th> 
+    
+        <td class="num">145 934 462</td>
+    </tr>
+    <tr>
+        <th>México </th> 
+    
+        <td class="num">128 932 753</td>
+    </tr>
+        <tfoot>
+            <tr>
+                <th scope="row">Total De Hábitantes</th>
+                <td>000000</td>
+            </tr>
+        </tfoot>
+        <caption>
+            População Mundial
+        </caption>
     </tbody>
+    </table>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptates hic, sunt laudantium illo animi velit quae distinctio! Natus facere neque veritatis sed quisquam maiores placeat dolore eveniet, excepturi animi!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptates hic, sunt laudantium illo animi velit quae distinctio! Natus facere neque veritatis sed quisquam maiores placeat dolore eveniet, excepturi animi!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptates hic, sunt laudantium illo animi velit quae distinctio! Natus facere neque veritatis sed quisquam maiores placeat dolore eveniet, excepturi animi!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptates hic, sunt laudantium illo animi velit quae distinctio! Natus facere neque veritatis sed quisquam maiores placeat dolore eveniet, excepturi animi!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptates hic, sunt laudantium illo animi velit quae distinctio! Natus facere neque veritatis sed quisquam maiores placeat dolore eveniet, excepturi animi!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptates hic, sunt laudantium illo animi velit quae distinctio! Natus facere neque veritatis sed quisquam maiores placeat dolore eveniet, excepturi animi!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptates hic, sunt laudantium illo animi velit quae distinctio! Natus facere neque veritatis sed quisquam maiores placeat dolore eveniet, excepturi animi!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptates hic, sunt laudantium illo animi velit quae distinctio! Natus facere neque veritatis sed quisquam maiores placeat dolore eveniet, excepturi animi!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptates hic, sunt laudantium illo animi velit quae distinctio! Natus facere neque veritatis sed quisquam maiores placeat dolore eveniet, excepturi animi!
+
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptates hic, sunt laudantium illo animi velit quae distinctio! Natus facere neque veritatis sed quisquam maiores placeat dolore eveniet, excepturi animi!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptates hic, sunt laudantium illo animi velit quae distinctio! Natus facere neque veritatis sed quisquam maiores placeat dolore eveniet, excepturi animi!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptates hic, sunt laudantium illo animi velit quae distinctio! Natus facere neque veritatis sed quisquam maiores placeat dolore eveniet, excepturi animi!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptates hic, sunt laudantium illo animi velit quae distinctio! Natus facere neque veritatis sed quisquam maiores placeat dolore eveniet, excepturi animi!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptates hic, sunt laudantium illo animi velit quae distinctio! Natus facere neque veritatis sed quisquam maiores placeat dolore eveniet, excepturi animi!
+
+    </p>
+    
     
     
 </body>
