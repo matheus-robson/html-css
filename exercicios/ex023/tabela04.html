@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela de filmes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th,td{
+            border: 1px solid gray;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Tabela de execícios</h1>
+<table>
+    <caption>
+       Filmes Favoritos
+    </caption>
+
+    <thead>
+        <tr>
+            <th scope="col">Grupos</th> 
+            <th scope="col">Nomes</th>
+            <th scope="colgroup" colspan="3">Filmes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="colgroup"  rowspan="3">Mulheres</th>
+            <td>Ana Maria</td>
+            <td>Rambo</td>
+            <td>Alien</td>
+            <td>Vingadores</td>
+        </tr>
+
+        <tr>
+            <td>Beatriz Souza</td>
+            <td>Hulk</td>
+            <td>Iception</td>
+            <td>Batman</td>
+        </tr>
+        <tr>
+            <td>claudia MElo</td>
+            <td>Oblivion</td>
+            <td>Matrix</td>
+            <td>Big hero</td>
+        </tr>
+
+        <tr>
+            <th scope="colgroup" rowspan="3">Homens</th>
+            <td>Bruno mendonça</td>
+            <td>intocáveis</td>
+            <td>Aminésia</td>
+            <td>Glagiadores</td>
+        </tr>
+
+        <tr>
+            <td>Daniel Lourenço</td> 
+            <td>wall-e</td>
+            <td>Old Boy</td>
+            <td>Django</td>
+        </tr>
+        <tr>
+            <td>Fábio Motta</td>
+            <td>Star Wars</td>
+            <td>Taxi Driver</td>
+            <td>Toy Story</td>
+        </tr>
+        
+    </tbody>
+    <tfoot>
+        <th colspan="4">Total</th>
+        <td >Alegria</td>
+    </tfoot>
+</table>
+ 
+</body>
+</html>
