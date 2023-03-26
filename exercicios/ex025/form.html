@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estudo de Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iusu"us> usuário:</label>
+            <input type="text" name="usu" id="iusu" required minlength="10" maxlength="12" size="12" placeholder="Nome do usuário" autocomplete="country-name">
+        </p>
+
+        <p>
+            <label for="isen">senha:</label>
+            <input type="text" name="sen" id="isen" required minlength="6" maxlength="8" size="8" placeholder="Senha do usuário" autocomplete="current-password"> 
+        </p>
+            <p> <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+           
+       
+    </form>
+</body>
+</html>
