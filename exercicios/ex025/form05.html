@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>estudo de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on"></form>
+    <p>
+        <label for="iest">estado</label>
+        <select name="estado" id="iestado">
+            <optgroup label="região sudeste">
+                <option value="sp">são paulo</option>
+                <option value="mg">Minas Gerais</option>
+            </optgroup>
+
+              <optgroup label="Região nordeste">
+        
+                  <option value="pe">Pernambuco</option>
+                  <option value="pb">Paraíba</option>
+              </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="profissões">profissões</label>
+        <input type="text" name="profissões" id="iprof" list="idprof" details="iprof">
+        <datalist id=idprof>
+            <option value="adm">administrador</option>
+            <option value="adv">advogado</option>
+        </datalist>
+
+
+    </p>
+    <label for="mensagem">mensagem:</label><br>
+    <textarea name="mensagem" id="mgn" cols="30" rows="10"></textarea>
+    <p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="apagar">
+    </p>
+</body>
+</html>
